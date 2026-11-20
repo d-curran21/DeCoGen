@@ -29,9 +29,9 @@ class Args:
         self.num_graphs = None  # None => use entire dataset
 
         # Output formats
-        self.produce_graphs = True
-        self.produce_min_dfscodes = True
-        self.produce_min_dfscode_tensors = True
+        self.produce_graphs = False
+        self.produce_min_dfscodes = False
+        self.produce_min_dfscode_tensors = False
 
         # GraphRNN specific (if used)
         self.max_prev_node = None
